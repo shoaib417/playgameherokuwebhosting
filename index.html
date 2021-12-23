@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME PAGE</title>
+  <link rel="stylesheet" href="mini pro css/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <script src="mini pro js/index.js"></script>
+  
+</head>
+  
+<body>
+<style>
+  body{
+    background-image: url('game1.jpg');
+    opacity: 0.5;
+  }
+</style>
+ 
+
+  
+<article>
+<nav>
+  <div id="logo">
+    <p><b>PlayGame</b> &nbsp; &nbsp; &nbsp;</p>
+    <img src="logo.png" alt="#" >
+  </div>
+  <div class="menu">
+    <a href="#" class="nav-item nav-active"><b>home</b></a>
+    <a href="login (2).html" class="nav-item"><b>login</b></a>
+    <a href="signup.html" class="nav-item"><b>Sign Up</b></a>
+    <a href="mailto:abhishekips07@gmail.com" class="nav-item"><b>contact</b></a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; categories</span>
+</nav>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">Arcade</a>
+    <a href="#">Adventure</a>
+    <a href="#">Action</a>
+    <a href="#">Roleplay</a>
+  </div>
+</div>
+
+
+<div class="content">
+  <p>
+    Welcome to Our Website PLAYGAME!
+    <br>
+    Sign Up and Login to Play Games!
+  </p>
+</div>
+
+
+<style>
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(153, 25, 25);
+    background-color: rgba(236, 227, 227, 1);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #0c0b0b;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 37px;
+    right: 0px;
+    font-size: 44px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+  .container {
+
+
+  position: relative;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  height: fit-content;
+
+  position: relative;
+  height: 176px;
+  width: 800px;
+  margin-top: 103px;
+  margin-left: 50px;
+  outline: dashed 4px rgb(235, 228, 228);
+  padding: 100px;
+}
+
+</style>
+
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+  }
+  </script>
+
+
+    
+    
+
+  
+</article>
+</body>
+</html>

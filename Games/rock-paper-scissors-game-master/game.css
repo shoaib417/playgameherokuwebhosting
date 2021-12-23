@@ -1,0 +1,36 @@
+.container-3 {
+    border: 1px solid black;
+    
+    
+    text-align: center;
+}
+
+.flex-box-rps{
+    display: flex;
+border: 10px solid black;
+padding: 10px;
+justify-content: space-around;
+
+
+}
+
+.flex-box-rps img:hover{
+    box-shadow:  0px 10px 50px rgba(37, 50,233, 1);
+}
+
+h2{
+
+    text-align: center;
+    padding: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 65px;
+    color: solid black;
+    border:  10px solid black ;
+    
+    
+}
+*{
+    
+    background:repeating-linear-gradient(-45deg,gold,pink,cyan);
+}
